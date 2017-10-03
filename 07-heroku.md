@@ -108,13 +108,13 @@ Create a `static.json` file to configure the web server for clean [`browserHisto
 
 A CORS proxy is a service that allows developers (probably you) to access resources from other websites without having to own that website.
 
-Maybe you want to embed an image of a cat that you found on https://acatwebsite.com/ (note: this URL is just an example). However, maybe the owners of that website want to make sure that their cat images can **only** be gotten to by a browser, not (for example) a JavaScript POST call.
-- Limiting who can access your web server is important in web security - otherwise, someone could (for example) write code that runs on https://acatwebsite.com/ and changes all the content to be able dogs.
+Maybe you want to embed an image of a cat that you found on `https://acatwebsite.com/` (note: this URL is just an example). However, maybe the owners of that website want to make sure that their cat images can **only** be gotten to by a browser, not (for example) a JavaScript POST call.
+- Limiting who can access your web server is important in web security - otherwise, someone could (for example) write code that runs on `https://acatwebsite.com/` and changes all the content to be able dogs.
 
 [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) stands for "Cross-Origin Resource Sharing". CORS is a web standard that websites use to make sure that things accessing them (like you trying to get a cat picture) are safe.
 
 When you try to go to a website where only one side is using CORS on the backend, you'll get an error saying that you aren't allowed to access the resource.
-- But if https://acatwebsite.com/ is using CORS and you aren't, how are you supposed to get that cat image?
+- But if `https://acatwebsite.com/` is using CORS and you aren't, how are you supposed to get that cat image?
 
 With a CORS proxy, you don't have to know anything about setting up CORS (unless you're interested in researching yourself!); it takes care of this for you. You just need the proxy, and then you can embed all the cat pictures you want.
 
