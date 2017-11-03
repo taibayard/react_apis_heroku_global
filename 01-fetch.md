@@ -4,8 +4,6 @@
 
 - Describe what an API is and why we might use one.
 - Explain the common role of JSON on the web.
-- Introduce the native ES6 `fetch()` method to make GET requests for data.
-- Render a React component using data loaded from a `fetch()` request.
 
 ## What is an API?
 
@@ -47,3 +45,9 @@ Here are just a few examples of APIs that you can use. Check it out - the left c
 ### Hmmm.
 
 Can you think of any websites you go to that pull information from other places, so they probably use an API?
+
+## Describe How an API Fits in With SPAs
+
+- In a traditional, server-side-rendered application, the server retrieves data from the database and uses that information to format the HTML on the server side. <!-- (Demo https://www.amazon.com). -->
+- Now, a server retrieves the data from the database and responds to requests with JSON. <!-- (Demo http://www.swapi.co/). -->
+- We can use various web-based APIs to populate our SPAs with data asynchronously. This way, the user can interact with the application and see it respond with new data without needing to refresh or navigate to a new page <!-- (demo [/starwars](/starwars)). -->
