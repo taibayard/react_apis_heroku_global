@@ -1,6 +1,6 @@
 # Continuing the Film Project
 
-You should already have the application from previously. If not, fork and clone the [react-film repo](../../../react-film/).
+You should already have the application from previously. If not, fork and clone the `react-film` repo.
 
 If you didn't follow along from the previous assignment, you can jump ahead to today's starter code by switching to the `3-unidirectional-flow` branch.
 
