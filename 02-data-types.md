@@ -1,3 +1,12 @@
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Return Formats
+
+
+### Learning Objectives
+*After this lesson, you will be able to:*
+- Contrast JSON and XML
+- Describe API keys
+
+
 ## Return Format
 
 No user likes when they're on a page that takes forever to load. If your web app has a google map, a list of movies from OMDB, and a Spotify catalog, that's a lot of information! You want the information returned as quickly as possible so that users aren't waiting forever for your page to load.

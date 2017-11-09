@@ -1,9 +1,10 @@
-# Introduction to APIs
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Introduction to APIs
 
-## Learning Objectives for this section
 
-- Describe what an API is and why we might use one.
-- Explain the common role of JSON on the web.
+### Learning Objectives
+*After this lesson, you will be able to:*
+- Describe what an API is and why we might use one
+- Identify common APIs on the web
 
 ## What is an API?
 

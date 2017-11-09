@@ -1,3 +1,15 @@
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Imperative and Declarative Programming
+
+
+### Learning Objectives
+*After this lesson, you will be able to:*
+- Create a JavaScript function via declarative programming
+- Create a JavaScript function via imperative programming
+- Contrast imperative and declarative
+
+
+## Programming Styles
+
 You've made it pretty far through this module (and your blog looks sweet). Awesome job!
 
 Now's the time to grab some tea, because we're going to throw some terminology at you. It's great that now you're proficient at React, but as you go forward with programming, there are some concepts that are worth thinking about.
