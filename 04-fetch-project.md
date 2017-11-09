@@ -1,4 +1,7 @@
-# You Do: Implement the ES6 fetch API #
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) You Do: Displaying the Weather
+
+
+## Implement the ES6 fetch API
 
 You'd like to show people what you can do, so to really impress them you're going to display the weather on your About page.
 

@@ -1,3 +1,12 @@
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Heroku
+
+
+### Learning Objectives
+*After this lesson, you will be able to:*
+- Describe Heroku
+- Deploy an app on Heroku
+- Set up a CORS proxy on Heroku
+
 # Deploying a React App
 
 You've been running everything on localhost, which is great for testing - but what if you want to show off what you've done?

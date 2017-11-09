@@ -1,15 +1,12 @@
-# Continuing the Film Project
-
-You should already have the application from previously. If not, fork and clone the `react-film` repo.
-
-If you didn't follow along from the previous assignment, you can jump ahead to today's starter code by switching to the `3-unidirectional-flow` branch.
-
-You can run your app with `npm install && npm run start`.
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) You Do: Film Exercise
 
 ## Your Mission
 
-- We need to show the details of each movie by getting this information from TMDB.
-- We also want to refactor our React app to make it as clean as possible.
+Stop any project you currently have running; let's go back to the film application that you've started. You can run the app with `npm start`.
+
+You're almost finished! Now, You need to:
+- Show the details of each movie by getting this information from TMDB.
+- Refactor your React app to make it as clean as possible.
 
 ![](assets/bladerunner.png)
 
@@ -17,7 +14,7 @@ You can run your app with `npm install && npm run start`.
 
 API calls in React are handled using the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) provided by modern browsers.
 
-We already have a function where we want the API call to go (`handleDetailsClick` - when a user clicks for details of a movie, we'll call the API to get those details), so our `fetch` task will work inside that function. We've set up the rest of our app correctly.
+You already have a function where you want the API call to go (`handleDetailsClick` - when a user clicks for details of a movie, you'll call the API to get those details), so your `fetch` task will work inside that function. You've set up the rest of your app correctly.
 
 #### Step 1: Set up the API key
 
@@ -74,7 +71,7 @@ const url = `https://api.themoviedb.org/3/movie/${film.id}?api_key=${TMDB.api_ke
 
 fetch(url).then(response => {
   response.json().then(data => {
-    console.log(data) // take a look at what we get back!
+    console.log(data) // take a look at what you get back!
   })
 })
 ```
@@ -83,7 +80,7 @@ Try clicking a movie row in your browser - the data for it should appear in the 
 
 #### Step 4: Set the state when the API call completes
 
-Let's now set your `current` state to be the object we get back from TMDB. Move the `setState` call into the API call.
+Let's now set your `current` state to be the object you get back from TMDB. Move the `setState` call into the API call.
 
 ```JavaScript
 response.json().then(data => {
@@ -117,7 +114,7 @@ Check in the browser to be sure the functionality hasn't changed.
 
 #### Step 3: Refactor `FilmDetails`
 
-We haven't written out the `FilmDetails` component yet, but it currently only renders UI. Therefore, you can also make it a functional component.
+You haven't written out the `FilmDetails` component yet, but it currently only renders UI. Therefore, you can also make it a functional component.
 
 Follow the same steps as above, and once again check in the browser for functionality.
 
@@ -165,7 +162,7 @@ let details
 Now, you need to determine if there is a film to render or not.
 
 To do this, you just need to check if there's an `id` property on the `film` prop passed in to `FilmDetail`.
-- If not, you want to render the empty case we added in the last step.
+- If not, you want to render the empty case you added in the last step.
 - Otherwise, you have a film to show, so you want to present the film details markup (don't copy this over yet):
 
 ```html
